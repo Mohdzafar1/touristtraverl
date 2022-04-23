@@ -1,5 +1,14 @@
 import React from 'react'
 import logo from "../Components/logo1.png"
+import { NavLink,Link } from 'react-router-dom'
+// import Home from "./Home"
+// import Picktrip from "./Picktrip";
+// import Target from "./Target"
+// import Cart from "./Cart";
+// import Ukbeauti from "./Ukbeauti"
+// import Video from "./Video"
+// import chardham from './Chardham';
+
 
 const Navbar = () => {
   return (
@@ -9,8 +18,8 @@ const Navbar = () => {
          </header>
 
              <nav className='navbar navbar-expand-md'>
-              <div className="container-fluid">
-               <a href=""className='navbar-brand '><img src={ logo} id="logo"/></a>
+              <div className="container">
+               <a to=""className='navbar-brand '><img src={ logo} id="logo"/></a>
                <button className='hamburger navbar-toggler bg-dark' data-bs-toggle="collapse"data-bs-target="#nav">
                 <span className='line'></span>
                 <span className='line'></span>
@@ -19,52 +28,71 @@ const Navbar = () => {
                </button>
                  <div className= "collapse navbar-collapse text-center justify-content-center"id="nav">
                 <ul className= "navbar-nav text-dark">
-                <li className='nav-item'><a href=""className='nav-link text-dark'>HOME</a></li>
+                <li className='nav-item'><NavLink to="/home"className='nav-link text-dark me-3'id="menu-item">HOME</NavLink></li>
                     
                 <li class="nav-item dropdown text-dark">
-          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"  data-bs-toggle="dropdown">
+          <NavLink class="nav-link dropdown-toggle text-dark me-3" to="#" id="navbarDropdown"  data-bs-toggle="dropdown">
           SPIRITUAL
-          </a>
+          </NavLink>
           <ul class="dropdown-menu ">
-            <li><a class="dropdown-item" href="#">1</a></li>
-            <li><a class="dropdown-item" href="#">2</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><Link class="dropdown-item" to="/Chardham"id="menu-item">Char Dham</Link></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Kedar</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Prayag</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Badri</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Hemkund Sahib</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Piran Kaliyar Sharif</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Haridwar</NavLink></li>
+            
+            
           </ul>
                     
                </li> 
 
                <li class="nav-item dropdown text-light">
-          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"  data-bs-toggle="dropdown">
+          <NavLink class="nav-link dropdown-toggle text-dark me-3" to="#" id="navbarDropdown"  data-bs-toggle="dropdown">
           ADVENTURE
-          </a>
+          </NavLink>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">1</a></li>
-            <li><a class="dropdown-item" href="#">2</a></li>
-            <li><a class="dropdown-item" href="#">3</a></li>
+            <li><NavLink class="dropdown-item" to="/anil"id="menu-item">Auli</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Rishikesh</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">New Tehri</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Nainital</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Sattal</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Chopta</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Mussoorie</NavLink></li>
+            
+
           </ul>
                     
                </li> 
 
                <li class="nav-item dropdown text-light">
-          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"  data-bs-toggle="dropdown">
+          <NavLink class="nav-link dropdown-toggle text-dark me-3" to="#" id="navbarDropdown"  data-bs-toggle="dropdown">
           NATURE
-          </a>
+          </NavLink>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">1</a></li>
-            <li><a class="dropdown-item" href="#">2</a></li>
-            <li><a class="dropdown-item" href="#">3</a></li>
+            <li><NavLink class="dropdown-item" to="/valleryoffolwer"id="menu-item">Valley of Flowers</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Chaukori</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Kausani</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Nanital</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Mukeshwar</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#"id="menu-item">Ranikhet</NavLink></li>
+        
           </ul>
                     
                </li> 
 
                <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown"  data-bs-toggle="dropdown">
+          <NavLink class="nav-link dropdown-toggle text-dark me-3" to="#" id="navbarDropdown"  data-bs-toggle="dropdown">
           WILDLIFE
-          </a>
+          </NavLink>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">1</a></li>
-            <li><a class="dropdown-item" href="#">2</a></li>
-            <li><a class="dropdown-item" href="#">3</a></li>
+            <li><NavLink class="dropdown-item" to="/wildlife">Jim Corbett National Park</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#">Nanda Devi National Park</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#">Rajaji National Park</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#">Gangotri National Park</NavLink></li>
+            <li><NavLink class="dropdown-item" to="#">Binsar Wildlife Sanctuary</NavLink></li>
+           
           </ul>
                     
                </li> 
@@ -78,8 +106,11 @@ const Navbar = () => {
         
 
       </>
+      
     </div>
-  )
+   
+   
+ )
 }
 
 export default Navbar

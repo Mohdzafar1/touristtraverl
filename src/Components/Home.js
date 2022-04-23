@@ -2,6 +2,12 @@ import React from 'react'
 import img1 from "../Components/img1.jpg";
 import img2 from "../Components/img2.jpeg"
 import img3 from "../Components/swapnil.jpg"
+import Picktrip from "./Picktrip";
+import Target from "./Target"
+import Cart from "./Cart";
+import Ukbeauti from "./Ukbeauti"
+import Video from "./Video"
+
 
 
 const Home = () => {
@@ -50,6 +56,12 @@ const Home = () => {
 
  
        </>
+    
+      <Picktrip/>
+      <Target/>
+      <Cart/>
+      <Ukbeauti/>
+      <Video/>
     </div>
   )
 }
