@@ -1,7 +1,7 @@
 import React from 'react'
-import cart1 from "../Components/Rental.png"
-import cart2 from "../Components/sport.png"
-import cart3 from "../Components/Travel.png"
+import cart1 from "../../Images/Rental.png"
+import cart2 from "../../Images/sport.png"
+import cart3 from "../../Images/Travel.png"
 
 
 const Target = () => {

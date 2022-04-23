@@ -1,12 +1,12 @@
 import React from 'react'
-import img1 from "../Components/img1.jpg";
-import img2 from "../Components/img2.jpeg"
-import img3 from "../Components/swapnil.jpg"
-import Picktrip from "./Picktrip";
-import Target from "./Target"
-import Cart from "./Cart";
-import Ukbeauti from "./Ukbeauti"
-import Video from "./Video"
+import img1 from "../../Images/banner5.jpg";
+import img2 from "../../Images/banner2.jpg"
+import img3 from "../../Images/swapnil.jpg"
+import Picktrip from "../Home/Picktrip";
+import Target from "../Home/Target"
+import Cart from "../Home/Cart";
+import Ukbeauti from "../Home/Ukbeauti"
+import Video from "../Home/Video"
 
 
 

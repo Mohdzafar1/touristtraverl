@@ -1,12 +1,12 @@
 import React from 'react'
-import  img1 from "../Components/bike triking.jpg"
-import  img2 from "../Components/natures-bounty.jpg"
-import  img3 from "../Components/elephant.jpg"
-import  img4 from "../Components/food.jpg"
-import  img5 from "../Components/culture.jpg"
-import  img6 from "../Components/past-temple.jpg"
-import  img7 from "../Components/yoga.jpg"
-import img8  from "../Components/gods.jpg"
+import  img1 from "../../Images/bike triking.jpg"
+import  img2 from "../../Images/natures-bounty.jpg"
+import  img3 from "../../Images/elephant.jpg"
+import  img4 from "../../Images/food.jpg"
+import  img5 from "../../Images/culture.jpg"
+import  img6 from "../../Images/past-temple.jpg"
+import  img7 from "../../Images/yoga.jpg"
+import img8  from "../../Images/gods.jpg"
 
 
 const Cart = () => {

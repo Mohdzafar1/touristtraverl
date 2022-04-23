@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from "../Components/Animal1.jpg";
-import img2 from "../Components/animal2.jpg"
-import img3 from "../Components/brids.jpg"
-import img4 from "../Components/tiger.jpg"
+import img1 from "../../Images/Banner.jpg";
+import img2 from "../../Images/Banner1.jpg"
+import img3 from "../../Images/Banner3.jpg"
+import img4 from "../../Images/Valleybanner.jpg"
 
 
 const Valleyofflower = () => {
@@ -40,7 +40,7 @@ const Valleyofflower = () => {
          <div className="container">
          <div className="row pt-5 pb-5">
              <div className="col-lg-12">
-                 <h1>Corbett National Park</h1>
+                 <h1>Valley of Flowers</h1>
              </div>
          </div>  
          <div className="row">
@@ -51,7 +51,11 @@ const Valleyofflower = () => {
          <div className="row">
              <div className="col-lg-12">
                  <h4>What to know</h4>
-                 <p className='text-muted'>Established in 1936, this is India's first national park. It is named after the legendary naturalist and conservationist Jim Corbett.  Located at the Himalayas' foothills, near the popular hill-station of Nainital, the beautiful Jim Corbett National Park, is famous for being home to a large number of tigers, the highest among any Indian national park. Spread over 1318.54 sq km, of which 520 sq km is the main area, and the remaining is buffer; the park is spread over the picturesque landscapes of Pauri Garhwal, Almora, and Nainital. The jeep safari into the dense forest to see the wild animals in their natural habitat is a must-have experience. And if you are lucky, then you may get a chance to even spot a tiger. While on the jeep safari, enjoy the lush green forest's views cut across by streams and rivers and a few waterfalls. There are accommodations available inside the park for night-stay as well, which offer you once-in-a-lifetime experience.</p>
+                 <p className='text-muted'>With a stunning backdrop of the mighty Himalayan ranges, the Valley of Flowers National Park presents an ethereal view and an unforgettable experience for visitors. Spread over an area of 87 sq km in the Chamoli district, the Valley of Flowers National Park is a UNESCO World Heritage Site and forms one of the two core zones (the other being the Nanda Devi National Park) of the Nanda Devi Biosphere Reserve.
+
+The valley is believed to have been discovered in 1931, when three British mountaineers – led by Frank S Smythe – lost their way and chanced upon this spectacular valley. Attracted by the beauty of this place they named it the “Valley of Flowers”.
+
+As the name suggests, Valley of Flowers is a destination where nature blooms in full glory offering a breathtaking experience. Exotic flowers (over 600 species) like orchids, poppies, primulas, marigold, daisies and anemones are an eye-catching spectacle. Sub-alpine forests birch and rhododendron cover parts of the park's area. The trek to the valley offers eye-catching spectacles like cascading waterfalls and wild streams.  Situated at an altitude of around 3,600 m above the sea level, the valley is also home to such rare and amazing wildlife species like the gray langur, the flying squirrel, the Himalayan weasel, and black bear, the red fox, the lime butterfly, the snow leopard and Himalayan monal, to name a few.</p>
              </div>
          </div>
          </div>

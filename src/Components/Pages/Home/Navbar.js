@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../Components/logo1.png"
+import logo from "../../Images/logo12.png"
 import { NavLink,Link } from 'react-router-dom'
 // import Home from "./Home"
 // import Picktrip from "./Picktrip";
@@ -17,7 +17,7 @@ const Navbar = () => {
          <header className='header'>
          </header>
 
-             <nav className='navbar navbar-expand-md'>
+             <nav className='navbar navbar-expand-md '>
               <div className="container">
                <a to=""className='navbar-brand '><img src={ logo} id="logo"/></a>
                <button className='hamburger navbar-toggler bg-dark' data-bs-toggle="collapse"data-bs-target="#nav">

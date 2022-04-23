@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "../Components/Auli ski jum2 (2).jpg"
-import img2 from "../Components/Auli2.jpg"
-import img3 from "../Components/Skiing Auli.jpg"
+import img1 from "../../Images/Auli ski jum2 (2).jpg"
+import img2 from "../../Images/Auli2.jpg"
+import img3 from "../../Images/Skiing Auli.jpg"
 
 const Anil = () => {
   return (

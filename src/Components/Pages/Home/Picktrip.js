@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../Components/bg.jpg"
+// import bg from "../Components/Images/bg.jpg"
 
 const Picktrip = () => {
   return (

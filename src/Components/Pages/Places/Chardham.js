@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "../Components/Banner_Kedarnath.jpeg"
-import img2 from "../Components/Banner_badrinath.jpeg"
-import img3 from "../Components/Banner_Yamunotri.jpeg"
+import img1 from "../../Images/Banner_Kedarnath.jpeg"
+import img2 from "../../Images/Banner_badrinath.jpeg"
+import img3 from "../../Images/Banner_Yamunotri.jpeg"
 
 const chardham = () => {
   return (

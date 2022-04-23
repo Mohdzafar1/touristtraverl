@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Pages/Home/Navbar';
 import {Switch,Route, BrowserRouter, Redirect} from "react-router-dom"
-import Home from './Components/Home';
-import Chardham from './Components/Chardham';
-import Anil from './Components/Anil';
-import Valleryofflower from "./Components/Valleyofflower"
-import Wildlife from "./Components/Wildlife"
+import Home from './Components/Pages/Home/Home';
+import Chardham from './Components/Pages/Places/Chardham';
+import Anil from './Components/Pages/Places/Anil';
+import Valleryofflower from "./Components/Pages/Places/Valleyofflower"
+import Wildlife from "./Components/Pages/Places/Wildlife"
 
 function App() {
   return (
