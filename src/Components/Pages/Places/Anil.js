@@ -32,7 +32,21 @@ const Anil = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-       
+       <div className="container">
+         <div className="row pt-5 pb-5">
+         <div className="col-lg-12">
+           <h1>Anil</h1>
+         </div>
+         <div className="row">
+           <div className="col-lg-12 pt-3 pb-3">
+             <h1>WHAT TO KNOW</h1>
+             <p>he small yet picture-perfect town of Auli is India's premier ski resort destination. Originally developed as a paramilitary base, Auli's skiing slopes are popular among tourists and professionals alike. In winter, Auli hosts several snow adventure events. You can also take skiing lessons here (https://gmvnonline.com/skiing).
+
+Standing at around 2,800 m, and surrounded by acres of oak and coniferous forests, Auli offers panoramic views of some of India’s highest peaks, including the second-highest in the country, Nanda Devi (7,816m).  It is also the gateway to the Nanda Devi and the Valley of Flowers National Park, including the Hemkund Sahib gurdwara, and popular trekking destinations such as Gorson Bugyal, Pangerchulla Summit, and Tapovan can be accessed through Auli. Besides Auli, Uttarakhand has several other skiing destinations, like Dayara Bugyal, Munsiyari and Mundali.</p>
+           </div>
+         </div>
+         </div>
+       </div>
             
     </div>
   )

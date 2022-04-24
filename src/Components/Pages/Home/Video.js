@@ -1,5 +1,5 @@
 import React from 'react'
-import video from "../../Images/video.mp4"
+import video from "../../Images/addvideo.mp4"
 
 const Video = () => {
     //   const videoSrc=Car;
@@ -16,7 +16,10 @@ const Video = () => {
                 </div>
                 <div className="row justify-content-center pt-5 pb-5">
                     <div className="col-lg-8">
-                       <video src={video}id="video"/>
+                      
+                    <video width="400" controls id="video">
+                    <source src={video} type="video/mp4"></source>
+                        </video>
                     </div>
                 </div>
             </div>

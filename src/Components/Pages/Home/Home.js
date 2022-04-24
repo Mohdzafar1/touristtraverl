@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "../../Images/banner5.jpg";
-import img2 from "../../Images/banner2.jpg"
+import img1 from "../../Images/img3.jpg";
+import img2 from "../../Images/tigerbanner.jpg"
 import img3 from "../../Images/swapnil.jpg"
 import Picktrip from "../Home/Picktrip";
 import Target from "../Home/Target"
@@ -24,22 +24,22 @@ const Home = () => {
     <div class="carousel-item active">
       <img src={img2} class="d-block w-100" alt="..."id="img3"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5 className='text-light'>Bansar WildLife Sanctuary</h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={img1} class="d-block w-100" alt="..."id="img3"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5> Rishikesh,World Capital of Yoga</h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={img3} class="d-block w-100" alt="..." id="img3"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5> Beauty of Nature</h5>
+        <p></p>
       </div>
     </div>
   </div>

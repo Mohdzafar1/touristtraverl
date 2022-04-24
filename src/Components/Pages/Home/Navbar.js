@@ -11,13 +11,14 @@ import { NavLink,Link } from 'react-router-dom'
 
 
 const Navbar = () => {
+  
   return (
     <div>
       <>
-         <header className='header'>
-         </header>
+         {/* <header className='header'>
+         </header> */}
 
-             <nav className='navbar navbar-expand-md '>
+             <nav className='navbar navbar-expand-md'>
               <div className="container">
                <a to=""className='navbar-brand '><img src={ logo} id="logo"/></a>
                <button className='hamburger navbar-toggler bg-dark' data-bs-toggle="collapse"data-bs-target="#nav">
@@ -26,7 +27,7 @@ const Navbar = () => {
                 <span className='line'></span>
 
                </button>
-                 <div className= "collapse navbar-collapse text-center justify-content-center"id="nav">
+                 <div className= "collapse navbar-collapse text-center justify-content-end"id="nav">
                 <ul className= "navbar-nav text-dark">
                 <li className='nav-item'><NavLink to="/home"className='nav-link text-dark me-3'id="menu-item">HOME</NavLink></li>
                     
@@ -36,7 +37,7 @@ const Navbar = () => {
           </NavLink>
           <ul class="dropdown-menu ">
             <li><Link class="dropdown-item" to="/Chardham"id="menu-item">Char Dham</Link></li>
-            <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Kedar</NavLink></li>
+            <li><NavLink class="dropdown-item " to="#"id="menu-item">Panch Kedar</NavLink></li>
             <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Prayag</NavLink></li>
             <li><NavLink class="dropdown-item" to="#"id="menu-item">Panch Badri</NavLink></li>
             <li><NavLink class="dropdown-item" to="#"id="menu-item">Hemkund Sahib</NavLink></li>

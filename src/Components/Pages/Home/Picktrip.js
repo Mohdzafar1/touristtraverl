@@ -40,9 +40,11 @@ const Picktrip = () => {
                <div className="col-lg-4 pt-3 pb-3">
                   <select className='form-select'>
                   <option selected>Experience</option>
-                  <option value="1">Almora</option>
-                  <option value="1">U.S Nagar</option>
-                  <option value="1">Pihtoragarh</option>
+                  <option value="1">Adventure</option>
+                  <option value="1">Nature</option>
+                  <option value="1">Spiritual</option>
+                  <option value="1">Wildlife</option>
+                  <option value="1">Yoga & Wellness</option>
                   </select><br></br>
                </div>
                <div className='col-lg-2 pt-3 pb-3'>

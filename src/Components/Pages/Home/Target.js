@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import cart1 from "../../Images/Rental.png"
 import cart2 from "../../Images/sport.png"
 import cart3 from "../../Images/Travel.png"
@@ -29,8 +30,13 @@ const Target = () => {
 
                   <div className="col-lg-4 pt-3">
                       <div className="card"id="cart">
-                          <img src={cart1}/>
-                      </div>
+                       <img src={cart1}/>
+                       </div>
+                       <div className="card-body">
+                           <div className="card-title">
+                           <NavLink to="/rental" className="btn btn-outline-primary"id="rental-btn">GO NOW</NavLink>
+                           </div>
+                       </div>
                   </div>
               </div>
           </div>
